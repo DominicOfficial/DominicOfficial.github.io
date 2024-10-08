@@ -1,0 +1,175 @@
+html,body{
+    background-image: url(bg5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0 10px 5px 5px ;
+    margin: 1px;
+   
+}
+
+#welcome{
+    color:rgb(166, 166, 167);
+    border: 2px solid rgba(0, 0, 255, 0.178);
+    width: max-content;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.main{/* main div has NAV1 and CONTENT sections*/
+    display: flex;
+}
+#nav1{
+   
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.288);
+    border: 2px solid rgba(0, 0, 255, 0.178);
+    border-radius: 20px;
+    padding: 10px;
+    height: 720px;
+}
+
+#content{
+    border-radius: 40px;
+    margin-left: 40px;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 740px;
+    padding: 10px;
+    width: 1500px;
+    scroll-behavior: smooth;
+}
+
+#about{
+    display: flex;
+    border-radius: 40px;
+    height: max-content;
+    margin: 10px 10px 100px 10px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+#about1{
+    margin-top: 415px;
+    height: max-content;
+    color: rgb(213, 213, 224);
+    flex: 1;
+    margin-left: 50px;
+}
+#name{
+    color: rgb(162, 196, 171);
+}
+
+#avatar{
+   float: right;
+}
+
+#my_pic{
+    border-bottom-right-radius: 200px;
+    border-top-left-radius:300px;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius:200px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    margin: 30px;
+    width: 400px;
+}
+
+#img1{
+    width: 200px;
+    border-bottom: 5px solid rgba(0, 0, 255, 0.178);
+    border-top: 5px solid rgba(0, 0, 255, 0.178);
+    border-radius: 20px 20px 40px 40px ;
+}
+
+#links{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin-bottom: 400px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#rule1{
+    width: 900px;
+    border-color: black;
+}
+#skills{
+    display: flex;
+    margin: 60px 30px 100px 40px;
+    background-color: rgba(0, 0, 0, 0.288);
+    border: 2px solid rgba(0, 0, 255, 0.178);
+    padding: 20px 30px 20px 30px ;
+    width: max-content;
+    border-radius: 40px;
+}
+#html{
+    width: 200px;
+    flex: 1;
+}
+#css{
+    width: 180px;
+    flex: 1;
+    margin-left: 20px;
+    height: 200px;
+}
+#js{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    flex: 1;
+}
+#react{
+    width: 350px;
+    margin-left: -90px;
+    flex: 1;
+}
+#design{
+    width: 250px;
+    height: 220px;
+    margin-left: -50px;
+    flex: 1;
+    margin-right: 20px;
+}
+#contact{
+    display: flex;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.288);
+    border: 2px solid rgba(0, 0, 255, 0.178);
+    margin-left: 10px;
+    margin-right: 30px;
+    padding: 10px 0 10px 10px;
+    border-radius: 20px;
+    border-radius: 40px;
+}
+
+
+#documents{
+    display: flex;
+}
+#resume,#cv,#portfolio,#hire-me,#home{
+    flex: 2;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 50px;
+}
+
+#doc{
+    flex: 1;
+    width: 200px;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 70px;
+    border-radius: 20px;
+    border: solid rgba(3, 3, 156, 0.329);
+}
